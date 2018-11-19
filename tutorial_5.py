@@ -1,6 +1,7 @@
 import cv2 as cv
 import numpy as np
 
+#ROI与泛洪填充
 
 def fill_color_demo(image):
     copyImg = image.copy()

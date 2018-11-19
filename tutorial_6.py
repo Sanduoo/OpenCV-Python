@@ -1,6 +1,7 @@
 import cv2 as cv
 import numpy as np
 
+#模糊操作
 
 # 均值模糊：去掉随机噪声
 def blue_demo(image):

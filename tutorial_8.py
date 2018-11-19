@@ -1,6 +1,7 @@
 import cv2 as cv
 import numpy as np
 
+#边缘保留滤波(EPF)
 
 #高斯双边模糊（磨皮）
 def bi_demo(image):

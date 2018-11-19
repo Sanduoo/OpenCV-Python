@@ -1,6 +1,7 @@
 import cv2 as cv
 import numpy as np      #Python科学技术np包
 
+#Numpy数组操作
 
 def video_demo():
     capture = cv.VideoCapture(0)

@@ -1,6 +1,8 @@
 import cv2 as cv
 import numpy as np
 
+#像素运算02
+
 def add_demo(m1,m2):
     dest = cv.add(m1,m2)
     cv.imshow("add_demo",dest)

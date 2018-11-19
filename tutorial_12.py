@@ -2,6 +2,8 @@ import cv2 as cv
 import numpy as np
 from matplotlib import pyplot as plt
 
+#模版匹配
+
 def template_demo():
     tpl = cv.imread("C:/1/image/small2.jpg")
     target = cv.imread("C:/1/image/big.jpg")

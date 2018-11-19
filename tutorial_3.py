@@ -1,6 +1,7 @@
 import  cv2 as  cv
 import  numpy as np
 
+#像素运算
 
 def extrace_object_demo():
     capture = cv.VideoCapture("C:/1/001.mp4")

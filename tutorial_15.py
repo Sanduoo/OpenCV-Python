@@ -2,6 +2,7 @@ import cv2 as cv
 import numpy as np
 from matplotlib import pyplot as plt
 
+#图像金字塔
 
 def pyramid_demo(image):
     level = 3

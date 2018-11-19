@@ -1,6 +1,7 @@
 import cv2 as cv
 import numpy as np
 
+#高斯模糊
 
 def clam(pv):
     if pv>255:

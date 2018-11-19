@@ -2,6 +2,7 @@ import cv2 as cv
 import numpy as np
 from matplotlib import pyplot as plt
 
+#图像直方图(histogram)
 
 def plot_demo(image):
     plt.hist(image.ravel(),256,[0,256])

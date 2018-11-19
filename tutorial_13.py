@@ -2,6 +2,7 @@ import cv2 as cv
 import numpy as np
 from matplotlib import pyplot as plt
 
+#图像二值化
 
 def threshold_demo(image):
     gray = cv.cvtColor(image,cv.COLOR_BGR2GRAY)

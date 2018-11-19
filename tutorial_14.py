@@ -2,6 +2,7 @@ import cv2 as cv
 import numpy as np
 from matplotlib import pyplot as plt
 
+#超大图像二值化（分割）
 
 def big_image_binary(image):
     print(image.shape)

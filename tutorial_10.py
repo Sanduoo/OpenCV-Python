@@ -2,6 +2,8 @@ import cv2 as cv
 import numpy as np
 from matplotlib import pyplot as plt
 
+#直方图应用
+
 """""
 #直方图均衡化  对比度增强
 def equalHist_demo(image):

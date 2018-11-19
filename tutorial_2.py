@@ -1,6 +1,8 @@
 import cv2 as cv
 import numpy as np
 
+#色彩空间
+
 def access_pixels(image):
     print(image.shape)      #图像的宽高的维t度
     height = image.shape[0]
