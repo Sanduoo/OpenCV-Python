@@ -34,8 +34,8 @@ src[200:400,200:400] = backface
 cv.imshow("face",src)
 """
 
-# fill_color_demo(src)
-fill_binary_demo(src)
+fill_color_demo(src)
+# fill_binary_demo(src)
 
 
 cv.waitKey(0)

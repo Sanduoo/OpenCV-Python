@@ -39,7 +39,7 @@ src = cv.imread("C:/1/1.jpg")
 cv.namedWindow('input_image', cv.WINDOW_AUTOSIZE)
 cv.imshow("input_image",src)
 
-laplacian_demo(src)
+scharr_demo(src)
 
 cv.waitKey(0)
 cv.destroyAllWindows()
