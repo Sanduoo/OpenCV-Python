@@ -11,6 +11,7 @@ def measure_object(image):
     cv.imshow("binary image",binary)
     dst = cv.cvtColor(binary,cv.COLOR_GRAY2BGR)
     # 找到轮廓
+
     outImage,contours,hireachy = cv.findContours(binary,cv.RETR_EXTERNAL,cv.CHAIN_APPROX_SIMPLE)
     for i,contour in enumerate(contours):
         area = cv.contourArea(contour)          #每个轮廓的面积
